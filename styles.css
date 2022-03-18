@@ -130,3 +130,39 @@ form {
   width: 100%;
   padding: 15px;
 }
+
+@media screen and (max-width: 600px) {
+  .mainCard {
+    width: 80%;
+  }
+  form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .inputForm {
+    width: 75%;
+    margin-bottom: 15px;
+  }
+  .btnCreate {
+    margin-top: 15px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .mainCard {
+    width: 80%;
+  }
+  form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .inputForm {
+    width: 75%;
+    margin-bottom: 15px;
+  }
+  .btnCreate {
+    margin-top: 15px;
+  }
+}
